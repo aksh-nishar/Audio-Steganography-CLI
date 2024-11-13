@@ -18,17 +18,5 @@ ALGORITHMS = {
         "encode": basic_lsb_steganography.encode,
         "decode": basic_lsb_steganography.decode,
         "output_file": OUTPUT_BASIC_LSB
-    },
-    2: {
-        "name": "Enhanced LSB Steganography with Bit Flipping",
-        "encode": enhanced_lsb_steganography_with_flip.encode,
-        "decode": enhanced_lsb_steganography_with_flip.decode,
-        "output_file": OUTPUT_ENHANCED_LSB_FLIP
-    },
-    3: {
-        "name": "Enhanced LSB Steganography without Bit Flipping",
-        "encode": enhanced_lsb_steganography_no_flip.encode,
-        "decode": enhanced_lsb_steganography_no_flip.decode,
-        "output_file": OUTPUT_ENHANCED_LSB_NO_FLIP
     }
 }
